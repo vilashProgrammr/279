@@ -15,7 +15,7 @@
     <p>{{movie.tagline}}</p>
     <p>
       <a routerLink="/genres/{{genre.id}}/{{genre.name}}" *ngFor="let genre of movie.genres" class="label label-info m-r-md">
-        {{genre.name}}
+        {{genre.name}}{{genre.name}}
       </a>
     </p>
     <h3>Overview</h3>
